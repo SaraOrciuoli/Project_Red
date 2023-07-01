@@ -1,0 +1,201 @@
+* {
+    font-family: Nova Square, Rajdhani;
+}
+
+:root {
+    --main: darkred;
+    --sec: #ececec;
+    --acc: #C67F7F;
+    --gray:  rgba(215, 213, 213, 0.856);
+    --light-gray: rgba(236, 234, 234, 0.856);
+    --dark-gray: rgb(115, 115, 115);
+}
+
+/* Logo */
+.logo {
+    width: 130px;
+}
+
+/* Header */
+.montagne {
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(197, 197, 197, 0.438)), url(./media/mountains2.png), url(./media/switzerland-862870_1920.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+
+    font-size: 100px;
+    color: var(--main);
+    letter-spacing: 40px;
+}
+
+/* Main */
+.sfondo {
+    height: 70vh;
+    width: 100%;
+    background-color:var(--gray);
+}
+
+.myem {
+    color: var(--dark-gray);
+}
+
+.myem::before {
+    content: '“';
+    color: var(--main);
+    font-size: 3rem;
+    position: absolute;
+    top: 830px;
+    left: 550px;
+}
+
+.myem::after {
+    content: '”';
+    color: var(--main);
+    font-size: 3rem;
+    position: absolute;
+    right: 750px;
+}
+
+.icone {
+    margin: 150px;
+    color: var(--main);
+}
+
+.riga {
+    border-bottom: solid 5px var(--main);
+    margin-top: 10px;
+    margin-bottom: -0.9rem;
+}
+
+.sfondo2 {
+    background-color: var(--gray);
+}
+
+.testo1 {
+    padding-left: 100px;
+    color: var(--dark-gray);
+}
+
+.testo2 {
+    padding-right: 100px;
+    color: var(--dark-gray);
+    text-align: end;  
+}
+
+h3 {
+    color: var(--main);
+}
+
+.trees {
+    background-image: url(./media/trees2.png);
+    width: 100%;
+    height: 70vh;
+    background-color: var(--gray);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain
+}
+
+button {
+    position: relative;
+    left: 900px;
+    top: 150px;
+    background-color: var(--main);
+    border-color: var(--main);
+    border-style: dashed;
+    color: white;
+}
+
+/* Timeline */
+.treesOnTheSide {
+    height: 700px;
+    background-image: url(./media/single.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+h2,
+h5 {
+    color: var(--main);
+}
+
+.myBorderLeft {
+    border-inline-start:solid 5px var(--main);
+}
+
+.myMarginCircle{
+    margin-left: -1.5rem;
+}
+
+.circle {
+    color: white;
+    border: 3px solid;
+    border-radius: 50%;
+    border-color: var(--main);
+}
+.circle2{
+    margin-top: -1.6rem;
+}
+
+/* Our team */
+.sfondo3 {
+    height: 1500px;
+    width: 100%;
+    background-color: var(--light-gray);
+}
+
+.ourTeam {
+    display: flex;
+    padding-left: 100px;
+}
+
+.picture1 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 3px solid var(--main);
+}
+
+.icone2 {
+    color: var(--main);
+}
+
+.ourBenefit {
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+}
+
+.picture2 {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 3px solid;
+    border-color: var(--main);
+}
+
+
+.redTrees {
+    background-image: url(./media/other.png);
+    width: 100%;
+    height: 70vh;
+    background-color: var(--light-gray);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain
+}
+
+.redBg {
+    height: 300px;
+    background-color: var(--main);
+}
+
+.foot,
+h4 {
+    color: var(--sec);
+}
+
+
